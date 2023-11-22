@@ -5,10 +5,17 @@ body{
 }
 
 p{
+    margin: 0;
+    margin-top: 0.3rem;
     color: hsl(229, 6%, 66%);
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5;
+}
+
+h3{
+    margin: 0;
+    margin-top: 1.5rem;
 }
 
 h2{
@@ -45,10 +52,35 @@ h1{
     text-align: center;
 }
 
-.supervisor-card {
-    margin-top: 4rem;
-    border: 2px solid black;
+.card{
+    /* border: 2px solid black; */
+    max-width: 20rem;
+    min-height: 15rem;
+    margin: 1.5rem 0rem;
+    border-radius: 0.2rem;
 }
+
+.card:not(:first-child){
+    background-color: white;
+    padding-left: 1.5rem;
+}
+
+.supervisor-card {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.team-card{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.karma-card{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.calculator-card{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
 
 .attribution {
     margin-bottom: 0.5rem;
