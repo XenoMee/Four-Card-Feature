@@ -60,6 +60,12 @@ h1{
     border-radius: 0.2rem;
 }
 
+.card img{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+}
+
 .card:not(:first-child){
     background-color: white;
     padding-left: 1.5rem;
@@ -80,7 +86,6 @@ h1{
 .calculator-card{
     border-top: 3px solid hsl(212, 86%, 64%);
 }
-
 
 .attribution {
     margin-bottom: 0.5rem;
