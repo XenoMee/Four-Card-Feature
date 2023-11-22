@@ -1,6 +1,14 @@
 body{
     margin: 0;
     background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .content{
@@ -17,7 +25,8 @@ body{
     margin-bottom: 0.5rem;
     display: inline-block;
     font-size: 0.75rem; 
-    text-align: center; 
+    text-align: center;
+    color: black; 
 }
 
 .attribution a {
