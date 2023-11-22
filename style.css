@@ -1,5 +1,22 @@
-.attribution { 
-    font-size: 11px; 
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.content{
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+}
+
+
+
+.attribution {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    font-size: 0.75rem; 
     text-align: center; 
 }
 
