@@ -11,6 +11,18 @@ p{
     line-height: 1.5;
 }
 
+h2{
+    font-weight: 200;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+.dark-blue{
+    color: hsl(234, 12%, 34%);
+}
+
 .content{
     height: 100svh;
     display: flex;
@@ -19,7 +31,24 @@ p{
     align-items: center;
 }
 
+.container{
+    width: 20rem;
+    margin: 2.5rem 0rem;
+}
 
+.title-card *{
+    margin: 0;
+}
+
+.title-card > p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.supervisor-card {
+    margin-top: 4rem;
+    border: 2px solid black;
+}
 
 .attribution {
     margin-bottom: 0.5rem;
