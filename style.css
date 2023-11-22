@@ -62,7 +62,8 @@ h1{
 }
 
 .card p {
-    font-size: 0.94rem;
+    font-size: 0.9rem;
+    overflow: hidden;
 }
 
 .card img{
@@ -83,6 +84,10 @@ h1{
 
 .team-card{
     border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.team-card p {
+    width: 17.2rem ;
 }
 
 .karma-card{
