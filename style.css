@@ -24,7 +24,7 @@ h2 {
 }
 
 h1 {
-  font-size: 1.65rem;
+  font-size: 1.646rem;
 }
 
 .dark-blue {
@@ -41,22 +41,13 @@ h1 {
 
 .container {
   width: 20rem;
-  margin: 4rem 0rem;
-}
-
-.title-card * {
-  margin: 0;
-}
-
-.title-card > p {
-  margin-top: 1rem;
-  text-align: center;
+  margin: 3.5rem 0rem;
 }
 
 .card {
   position: relative;
-  max-width: 20rem;
-  min-height: 15rem;
+  width: 17rem;
+  height: 15rem;
   margin: 1.5rem 0rem;
   border-radius: 0.2rem;
 }
@@ -66,10 +57,26 @@ h1 {
   overflow: hidden;
 }
 
+.title-card * {
+  margin: 0;
+}
+
+.title-card > p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.026rem;
+}
+
 .card img {
   position: absolute;
   bottom: 1.5rem;
   right: 2rem;
+}
+
+.card:first-child{
+  width: 20rem;
+  height: 14rem;
+  margin-bottom: 0;
 }
 
 .card:not(:first-child) {
@@ -101,7 +108,7 @@ h1 {
 .attribution {
   margin-bottom: 0.5rem;
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-align: center;
   color: black;
 }
@@ -112,4 +119,31 @@ h1 {
 
 @media (min-width: 45em) {
   
+  .content{
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .container{
+    display: grid;
+    width: 60em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr auto;
+    margin: 0;
+  }
+
+  .card{
+    margin: 0;
+  }
+
+  .card:first-child{
+    text-align: center;
+    
+    background-color: aqua;
+  }
+
+  .supervisor-card{
+
+  }
+
 }
