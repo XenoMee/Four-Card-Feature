@@ -18,12 +18,13 @@ h3 {
   margin-top: 1.5rem;
 }
 
-h2 {
+h1 {
   font-weight: 200;
   font-size: 1.646rem;
 }
 
-h1 {
+h2 {
+  font-weight: 700;
   font-size: 1.646rem;
 }
 
@@ -148,6 +149,10 @@ h1 {
     font-size: 0.4em;
   }
 
+  .card h3{
+    font-size: 1em;
+  }
+
    .team-card > p {
     width: 26.2em;
   }
@@ -235,6 +240,10 @@ h1 {
 
   .card p {
     font-size: 0.8em;
+  }
+
+  .card h3 {
+    font-size: 1.3em;
   }
 
   .title-card h1{
