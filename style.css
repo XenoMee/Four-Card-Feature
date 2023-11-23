@@ -1,111 +1,111 @@
-body{
-    margin: 0;
-    background-color: hsl(0, 0%, 98%);
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
 }
 
-p{
-    margin: 0;
-    margin-top: 0.3rem;
-    color: hsl(229, 6%, 66%);
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5;
+p {
+  margin: 0;
+  margin-top: 0.3rem;
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-h3{
-    margin: 0;
-    margin-top: 1.5rem;
+h3 {
+  margin: 0;
+  margin-top: 1.5rem;
 }
 
-h2{
-    font-weight: 200;
-    font-size: 1.646rem;
+h2 {
+  font-weight: 200;
+  font-size: 1.646rem;
 }
 
-h1{
-    font-size: 1.65rem;
+h1 {
+  font-size: 1.65rem;
 }
 
-.dark-blue{
-    color: hsl(234, 12%, 34%);
+.dark-blue {
+  color: hsl(234, 12%, 34%);
 }
 
-.content{
-    height: 100svh;
-    display: flex;
-    flex-direction: column;
-    justify-content:start;
-    align-items: center;
+.content {
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
-.container{
-    width: 20rem;
-    margin: 4rem 0rem;
+.container {
+  width: 20rem;
+  margin: 4rem 0rem;
 }
 
-.title-card *{
-    margin: 0;
+.title-card * {
+  margin: 0;
 }
 
 .title-card > p {
-    margin-top: 1rem;
-    text-align: center;
+  margin-top: 1rem;
+  text-align: center;
 }
 
-.card{
-    position: relative;
-    max-width: 20rem;
-    min-height: 15rem;
-    margin: 1.5rem 0rem;
-    border-radius: 0.2rem;
+.card {
+  position: relative;
+  max-width: 20rem;
+  min-height: 15rem;
+  margin: 1.5rem 0rem;
+  border-radius: 0.2rem;
 }
 
 .card p {
-    font-size: 0.9rem;
-    overflow: hidden;
+  font-size: 0.9rem;
+  overflow: hidden;
 }
 
-.card img{
-    position: absolute;
-    bottom: 1.5rem;
-    right: 2rem;
+.card img {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 2rem;
 }
 
-.card:not(:first-child){
-    background-color: white;
-    padding: 0rem 1.5rem;
-    box-shadow: 0 0 0.5rem 0.1rem rgba(0,0,0,0.2);
+.card:not(:first-child) {
+  background-color: white;
+  padding: 0rem 1.5rem;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
 .supervisor-card {
-    border-top: 3px solid hsl(180, 62%, 55%);
+  border-top: 3px solid hsl(180, 62%, 55%);
 }
 
-.team-card{
-    border-top: 3px solid hsl(0, 78%, 62%);
+.team-card {
+  border-top: 3px solid hsl(0, 78%, 62%);
 }
 
 .team-card p {
-    width: 17.2rem ;
+  width: 17.2rem;
 }
 
-.karma-card{
-    border-top: 3px solid hsl(34, 97%, 64%);
+.karma-card {
+  border-top: 3px solid hsl(34, 97%, 64%);
 }
 
-.calculator-card{
-    border-top: 3px solid hsl(212, 86%, 64%);
+.calculator-card {
+  border-top: 3px solid hsl(212, 86%, 64%);
 }
 
 .attribution {
-    margin-bottom: 0.5rem;
-    display: inline-block;
-    font-size: 0.75rem; 
-    text-align: center;
-    color: black; 
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  font-size: 0.75rem;
+  text-align: center;
+  color: black;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
