@@ -117,7 +117,7 @@ h1 {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 45em) {
+@media (min-width: 65em) {
   
   .content{
     height: 100vh;
@@ -126,9 +126,10 @@ h1 {
 
   .container{
     display: grid;
-    width: 60em;
+    width: 65em;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows:min-content 1fr 1fr;
+    gap: 30px;
     margin: 0;
   }
 
@@ -139,7 +140,8 @@ h1 {
   .card:first-child{
     text-align: center;
     grid-column: span 3;
-    width: 60em;
+    width: 100%;
+    height: 100%;
   }
 
   .title-card h1{
@@ -154,6 +156,31 @@ h1 {
     display: inline-block;
     font-size: 1em;
     width: 34em;
+  }
+
+  .supervisor-card{
+    grid-row: span 2;
+    position: relative;
+    top: 10em;
+  }
+
+  .team-card{
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .karma-card{
+    grid-area: 3 / 2 / 4 / 3;
+  }
+
+  .calculator-card{
+    grid-row: span 2;
+    position: relative;
+    top: 10em;
+  }
+
+  footer{
+    position: relative;
+    top: 6.5em;
   }
 
 }
