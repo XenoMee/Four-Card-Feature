@@ -1,31 +1,30 @@
-body {
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
   margin: 0;
+}
+
+body {
   background-color: hsl(0, 0%, 98%);
+  color: hsl(229, 6%, 66%);
+  line-height: 1.5;
   font-family: "Poppins", sans-serif;
 }
 
-p {
-  margin: 0;
-  margin-top: 0.3rem;
-  color: hsl(229, 6%, 66%);
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-h3 {
-  margin: 0;
-  margin-top: 1.5rem;
-}
-
 h1 {
+  font-weight: 700;
+  font-size: 1.646rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
   font-weight: 200;
   font-size: 1.646rem;
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 1.646rem;
+h3 {
+  margin-bottom: 0.5rem;
 }
 
 .dark-blue {
@@ -34,57 +33,44 @@ h2 {
 
 .content {
   height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
 }
 
 .container {
-  width: 20rem;
-  margin: 3.5rem 0rem;
+  max-width: 20rem;
+  margin: 5rem auto;
+  text-align: center;
 }
 
 .card {
   position: relative;
-  width: 17rem;
-  height: 15rem;
-  margin: 1.5rem 0rem;
-  border-radius: 0.2rem;
+  max-width: 20rem;
+  min-height: 15rem;
+  border-radius: 0.25rem;
+}
+
+.card:not(:first-child) {
+  text-align: start;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
 .card p {
   font-size: 0.9rem;
-  overflow: hidden;
+  opacity: 0.8;
 }
 
-.title-card * {
-  margin: 0;
-}
-
-.title-card > p {
-  margin-top: 1rem;
-  text-align: center;
+.card-description {
   font-size: 1.026rem;
 }
 
 .card img {
-  width: 4rem;
+  max-width: 4rem;
   position: absolute;
   bottom: 1.5rem;
   right: 2rem;
-}
-
-.card:first-child{
-  width: 20rem;
-  height: 14rem;
-  margin-bottom: 0;
-}
-
-.card:not(:first-child) {
-  background-color: white;
-  padding: 0rem 1.5rem;
-  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
 .supervisor-card {
@@ -108,149 +94,65 @@ h2 {
 }
 
 .attribution {
-  margin-bottom: 0.5rem;
-  display: inline-block;
   font-size: 0.7rem;
   text-align: center;
-  color: black;
+  color: initial;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 43em){
-
-  .content{
-    height: 100vh;
-    justify-content: center;
-  }
-
-  .container{
-    width: 43em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: min-content 1fr 1fr;
-    gap: 30px;
-    margin: 0;
-  }
-
-  .card{
-    width: 10em;
-    height: 10em;
-    margin: 0;
-  }
-  
-  .card img{
-    width: 2em;
-  } 
-
-  .card p {
-    font-size: 0.4em;
-  }
-
-  .card h3{
-    font-size: 1em;
-  }
-
-   .team-card > p {
-    width: 26.2em;
-  }
-
-  .card:first-child{
-    text-align: center;
-    grid-column: span 3;
-    width: 100%;
-    height: 100%;
-  }
-
-  .title-card h1{
-    font-size: 2em;
-  }
-
-  .title-card h2{
-    font-size: 2em;
-  }
-
-  .title-card > p {
-    display: inline-block;
-    font-size: 0.8em;
-    width: 34em;
-  }
-
-  .supervisor-card{
-    grid-row: span 2;
-    position: relative;
-    top: 6.5em;
-  }
-
-  .team-card{
-    grid-area: 2 / 2 / 3 / 3;
-  }
-
-  .karma-card{
-    grid-area: 3 / 2 / 4 / 3;
-  }
-
-  .calculator-card{
-    grid-row: span 2;
-    position: relative;
-    top: 6.5em;
-  }
-
-  footer{
-    position: relative;
-    top: 13em;
-  }
-
-}
-
 @media (min-width: 65em) {
-  
-  .content{
+  .content {
     height: 100vh;
-    justify-content: center;
-  }
-
-  .container{
     display: grid;
-    width: 65em;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:min-content 1fr 1fr;
-    gap: 30px;
+    place-items: center;
+  }
+
+  .container {
+    display: grid;
+    max-width: 65rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem auto;
+  }
+
+  .card {
+    max-width: 20em;
+    min-height: 15em;
     margin: 0;
   }
 
-  .card{
-    width: 17em;
-    height: 15em;
-    margin: 0;
-  }
-
-  .card:first-child{
+  .card:first-child {
     text-align: center;
     grid-column: span 3;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
   }
 
-  .card img{
+  .card:not(:first-child) {
+    margin-bottom: 0;
+    line-height: 1.7;
+  }
+
+  .card img {
     width: 4rem;
   }
 
   .card p {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
 
   .card h3 {
     font-size: 1.3em;
   }
 
-  .title-card h1{
+  .title-card h1 {
     font-size: 2.5em;
   }
 
-  .title-card h2{
+  .title-card h2 {
     font-size: 2.5em;
   }
 
@@ -260,13 +162,12 @@ h2 {
     width: 34em;
   }
 
-  .supervisor-card{
-    grid-row: span 2;
+  .supervisor-card {
     position: relative;
-    top: 10em;
+    top: 8rem;
   }
 
-  .team-card{
+  .team-card {
     grid-area: 2 / 2 / 3 / 3;
   }
 
@@ -274,19 +175,12 @@ h2 {
     width: 20em;
   }
 
-  .karma-card{
+  .karma-card {
     grid-area: 3 / 2 / 4 / 3;
   }
 
-  .calculator-card{
-    grid-row: span 2;
+  .calculator-card {
     position: relative;
-    top: 10em;
+    top: 8rem;
   }
-
-  footer{
-    position: relative;
-    top: 7em;
-  }
-
 }
