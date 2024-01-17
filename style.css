@@ -87,6 +87,9 @@ header {
 
 /* Typography */
 .product__perks {
+  color: var(--clr-neutral-700);
+  font-size: var(--fs-title);
+  font-weight: var(--fw-light);
 }
 
 .product__title {
