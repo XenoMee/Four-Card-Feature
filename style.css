@@ -101,7 +101,11 @@ header {
 }
 
 .product__features {
+  --feature-spacing: 1rem;
+
   list-style: none;
+  display: grid;
+  gap: var(--feature-spacing);
 }
 
 @media (min-width: 65em) {
