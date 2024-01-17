@@ -73,7 +73,7 @@ body {
 
 /* Product */
 .product {
-  --content-spacing: 4.5rem;
+  --content-spacing: 1rem;
   --fs-title: 1.6rem;
 
   display: grid;
@@ -83,6 +83,7 @@ body {
 /* Header */
 header {
   text-align: center;
+  margin: 4rem 0 2rem;
 }
 
 .product__perks {
@@ -104,6 +105,7 @@ header {
   --feature-spacing: 1.5rem;
   --feature-padding: 1.5rem;
 
+  margin: 2rem 0 4rem;
   list-style: none;
   display: grid;
   gap: var(--feature-spacing);
