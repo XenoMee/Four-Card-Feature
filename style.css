@@ -93,16 +93,6 @@ h3 {
   border-top: 3px solid hsl(212, 86%, 64%);
 }
 
-.attribution {
-  font-size: 0.7rem;
-  text-align: center;
-  color: initial;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (min-width: 65em) {
   .content {
     height: 100vh;
