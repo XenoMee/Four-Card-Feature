@@ -177,6 +177,10 @@ header {
 }
 
 @media (min-width: 50em) {
+  body {
+    align-content: center;
+  }
+
   .product {
     --fs-title: 2.4rem;
   }
