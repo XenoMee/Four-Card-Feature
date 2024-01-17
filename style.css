@@ -63,7 +63,7 @@ body {
   font-size: var(--ff-base);
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
-  margin: 1.5rem;
+  margin: 1.4rem;
 
   min-height: 100svh;
   display: grid;
