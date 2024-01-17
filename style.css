@@ -112,6 +112,12 @@ header {
   background-color: white;
 }
 
+.feature-name {
+  color: var(--clr-neutral-700);
+  font-weight: var(--fw-bold);
+  font-size: 1.3rem;
+}
+
 @media (min-width: 65em) {
   .content {
     height: 100vh;
