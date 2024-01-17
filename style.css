@@ -75,7 +75,7 @@ body {
 .product {
   --content-spacing: 1rem;
   --content-padding: 1rem;
-  --fs-title: 1.5rem;
+  --fs-title: 1.62rem;
 
   display: grid;
   gap: var(--content-spacing);
@@ -96,6 +96,7 @@ header {
   color: var(--clr-neutral-700);
   font-size: var(--fs-title);
   font-weight: var(--fw-bold);
+  margin-bottom: 1em;
 }
 
 .product__features {
