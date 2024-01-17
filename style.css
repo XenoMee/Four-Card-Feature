@@ -135,6 +135,7 @@ body {
 .feature-item[data-icon="feature-supervisor"]::after {
   content: "";
   background-image: url("./images/icon-supervisor.svg");
+  background-size: 4rem;
   width: 4rem;
   height: 4rem;
   margin-left: auto;
@@ -142,6 +143,7 @@ body {
 .feature-item[data-icon="feature-team-builder"]::after {
   content: "";
   background-image: url("./images/icon-team-builder.svg");
+  background-size: 4rem;
   width: 4rem;
   height: 4rem;
   margin-left: auto;
@@ -149,6 +151,7 @@ body {
 .feature-item[data-icon="feature-karma"]::after {
   content: "";
   background-image: url("./images/icon-karma.svg");
+  background-size: 4rem;
   width: 4rem;
   height: 4rem;
   margin-left: auto;
@@ -156,6 +159,7 @@ body {
 .feature-item[data-icon="feature-calculator"]::after {
   content: "";
   background-image: url("./images/icon-calculator.svg");
+  background-size: 4rem;
   width: 4rem;
   height: 4rem;
   margin-left: auto;
