@@ -118,6 +118,20 @@ header {
   font-size: 1.3rem;
 }
 
+/* Modifier classes */
+.feature--supervisor {
+  border-top: 0.2rem solid var(--clr-primary-cyan);
+}
+.feature--team-builder {
+  border-top: 0.2rem solid var(--clr-primary-red);
+}
+.feature--karma {
+  border-top: 0.2rem solid var(--clr-primary-orange);
+}
+.feature--calculator {
+  border-top: 0.2rem solid var(--clr-primary-blue);
+}
+
 @media (min-width: 65em) {
   .content {
     height: 100vh;
