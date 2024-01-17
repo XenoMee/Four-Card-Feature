@@ -108,6 +108,10 @@ header {
   gap: var(--feature-spacing);
 }
 
+.feature-item {
+  background-color: white;
+}
+
 @media (min-width: 65em) {
   .content {
     height: 100vh;
