@@ -178,7 +178,12 @@ header {
 
 @media (min-width: 50em) {
   .product {
-    --fs-title: 2.3rem;
+    --fs-title: 2.4rem;
+  }
+
+  .product__headline {
+    max-width: 34rem;
+    margin: 0 auto;
   }
 
   .product__features {
