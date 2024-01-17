@@ -101,7 +101,7 @@ header {
 
 /* Features */
 .product__features {
-  --feature-spacing: 1rem;
+  --feature-spacing: 1.5rem;
   --feature-padding: 2rem;
 
   list-style: none;
@@ -113,16 +113,28 @@ header {
   background-color: white;
   padding: var(--feature-padding);
   border-radius: 0.25rem;
+  box-shadow: 0 0 1rem 0.2rem rgba(0, 0, 0, 0.1);
+
+  display: grid;
+  gap: 0.5rem;
+}
+
+.feature-item[data-icon="feature-supervisor"]::after {
+  content: "";
+  background-image: url("./images/icon-supervisor.svg");
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
 }
 
 .feature-item > p {
   font-size: 0.8rem;
 }
+
 .feature-name {
   color: var(--clr-neutral-700);
   font-weight: var(--fw-bold);
   font-size: 1.3rem;
-  margin-bottom: 0.5em;
 }
 
 /* Modifier classes */
