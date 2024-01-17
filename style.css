@@ -175,3 +175,10 @@ header {
 .feature--calculator {
   border-top: 0.2rem solid var(--clr-primary-blue);
 }
+
+@media (min-width: 50em) {
+  .product__features {
+    grid-template-columns: repeat(3, 1fr);
+    /* max-width: 65rem; */
+  }
+}
