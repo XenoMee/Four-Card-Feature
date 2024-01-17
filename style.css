@@ -80,11 +80,11 @@ body {
   gap: var(--content-spacing);
 }
 
+/* Header */
 header {
   text-align: center;
 }
 
-/* Typography */
 .product__perks {
   color: var(--clr-neutral-700);
   font-size: var(--fs-title);
@@ -99,6 +99,7 @@ header {
   margin-bottom: 1em;
 }
 
+/* Features */
 .product__features {
   --feature-spacing: 1rem;
   --feature-padding: 2rem;
@@ -114,15 +115,14 @@ header {
   border-radius: 0.25rem;
 }
 
+.feature-item > p {
+  font-size: 0.8rem;
+}
 .feature-name {
   color: var(--clr-neutral-700);
   font-weight: var(--fw-bold);
   font-size: 1.3rem;
   margin-bottom: 0.5em;
-}
-
-.feature-item > p {
-  font-size: 0.8rem;
 }
 
 /* Modifier classes */
