@@ -63,10 +63,12 @@ body {
   font-size: var(--ff-base);
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
+  margin: 1.5rem;
 
   min-height: 100svh;
   display: grid;
-  place-content: center;
+  justify-content: center;
+  align-items: start;
 }
 
 /* Product */
@@ -84,85 +86,17 @@ header {
 }
 
 /* Typography */
+.product__perks {
+}
+
 .product__title {
   color: var(--clr-neutral-700);
   font-size: var(--fs-title);
   font-weight: var(--fw-bold);
 }
 
-h2 {
-  font-weight: 200;
-  font-size: 1.646rem;
-}
-
-h3 {
-  margin-bottom: 0.5rem;
-}
-
-.dark-blue {
-  color: hsl(234, 12%, 34%);
-}
-
-.content {
-  height: 100svh;
-}
-
-.container {
-  max-width: 20rem;
-  margin: 5rem auto;
-  text-align: center;
-}
-
-.card {
-  position: relative;
-  max-width: 20rem;
-  min-height: 15rem;
-  border-radius: 0.25rem;
-}
-
-.card:not(:first-child) {
-  text-align: start;
-  background-color: white;
-  padding: 1rem 1.5rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.7;
-  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
-}
-
-.card p {
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-
-.card-description {
-  font-size: 1.026rem;
-}
-
-.card img {
-  max-width: 4rem;
-  position: absolute;
-  bottom: 1.5rem;
-  right: 2rem;
-}
-
-.supervisor-card {
-  border-top: 3px solid hsl(180, 62%, 55%);
-}
-
-.team-card {
-  border-top: 3px solid hsl(0, 78%, 62%);
-}
-
-.team-card p {
-  width: 17.2rem;
-}
-
-.karma-card {
-  border-top: 3px solid hsl(34, 97%, 64%);
-}
-
-.calculator-card {
-  border-top: 3px solid hsl(212, 86%, 64%);
+.product__features {
+  list-style: none;
 }
 
 @media (min-width: 65em) {
