@@ -69,10 +69,17 @@ body {
   place-content: center;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 1.646rem;
-  margin-bottom: 1rem;
+/* Product */
+.product {
+  --content-spacing: 1rem;
+  --content-padding: 1rem;
+
+  display: grid;
+  gap: var(--content-spacing);
+}
+
+/* Typography */
+.product__title {
 }
 
 h2 {
