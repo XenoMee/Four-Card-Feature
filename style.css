@@ -126,6 +126,27 @@ header {
   height: 64px;
   margin-left: auto;
 }
+.feature-item[data-icon="feature-team-builder"]::after {
+  content: "";
+  background-image: url("./images/icon-team-builder.svg");
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+}
+.feature-item[data-icon="feature-karma"]::after {
+  content: "";
+  background-image: url("./images/icon-karma.svg");
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+}
+.feature-item[data-icon="feature-calculator"]::after {
+  content: "";
+  background-image: url("./images/icon-calculator.svg");
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+}
 
 .feature-item > p {
   font-size: 0.8rem;
