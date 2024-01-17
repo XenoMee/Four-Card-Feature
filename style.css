@@ -177,8 +177,21 @@ header {
 }
 
 @media (min-width: 50em) {
+  .product {
+    --fs-title: 2.3rem;
+  }
+
   .product__features {
     grid-template-columns: repeat(3, 1fr);
     max-width: 65rem;
+  }
+
+  .feature--karma {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .feature-item:is(.feature--supervisor, .feature--calculator) {
+    grid-row: span 2;
+    align-self: center;
   }
 }
