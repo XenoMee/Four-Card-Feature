@@ -74,7 +74,7 @@ body {
 /* Product */
 .product {
   --content-spacing: 4.5rem;
-  --fs-title: 1.62rem;
+  --fs-title: 1.6rem;
 
   display: grid;
   gap: var(--content-spacing);
@@ -121,6 +121,10 @@ header {
   margin-bottom: 0.5em;
 }
 
+.feature-item > p {
+  font-size: 0.8rem;
+}
+
 /* Modifier classes */
 .feature--supervisor {
   border-top: 0.2rem solid var(--clr-primary-cyan);
@@ -133,86 +137,4 @@ header {
 }
 .feature--calculator {
   border-top: 0.2rem solid var(--clr-primary-blue);
-}
-
-@media (min-width: 65em) {
-  .content {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-  }
-
-  .container {
-    display: grid;
-    max-width: 65rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 1.5rem;
-    margin: 2rem auto;
-  }
-
-  .card {
-    max-width: 20em;
-    min-height: 15em;
-    margin: 0;
-  }
-
-  .card:first-child {
-    text-align: center;
-    grid-column: span 3;
-    max-width: 100%;
-  }
-
-  .card:not(:first-child) {
-    margin-bottom: 0;
-    line-height: 1.7;
-  }
-
-  .card img {
-    width: 4rem;
-  }
-
-  .card p {
-    font-size: 0.8rem;
-  }
-
-  .card h3 {
-    font-size: 1.3em;
-  }
-
-  .title-card h1 {
-    font-size: 2.5em;
-  }
-
-  .title-card h2 {
-    font-size: 2.5em;
-  }
-
-  .title-card > p {
-    display: inline-block;
-    font-size: 1em;
-    width: 34em;
-  }
-
-  .supervisor-card {
-    position: relative;
-    top: 8rem;
-  }
-
-  .team-card {
-    grid-area: 2 / 2 / 3 / 3;
-  }
-
-  .team-card > p {
-    width: 20em;
-  }
-
-  .karma-card {
-    grid-area: 3 / 2 / 4 / 3;
-  }
-
-  .calculator-card {
-    position: relative;
-    top: 8rem;
-  }
 }
