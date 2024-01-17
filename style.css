@@ -102,7 +102,7 @@ header {
 /* Features */
 .product__features {
   --feature-spacing: 1.5rem;
-  --feature-padding: 2rem;
+  --feature-padding: 1.5rem;
 
   list-style: none;
   display: grid;
